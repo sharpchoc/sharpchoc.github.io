@@ -2,11 +2,13 @@
 layout: default
 title: About
 ---
-## About
+## About {#about}
 Hey! I'm super excited about improving our understanding of frontier AI models and how to best align them.
 
-## Highlights
-- None so far!
+## Mini Projects {#mini-projects}
+
+- **Truth in Base vs Fine-Tuned Models** — probing + causal steering in Llama-3.1-8B vs Instruct.  
+  [Read](/mini-projects/geometry-of-truth.html)
 
 ## Links
 - GitHub: https://github.com/sharpchoc

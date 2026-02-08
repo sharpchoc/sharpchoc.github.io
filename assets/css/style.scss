@@ -54,3 +54,49 @@ blockquote {
 hr {
   border-color: #1f2a3a;
 }
+
+/* --------------------------- */
+/* Top nav bar (added)         */
+/* --------------------------- */
+
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid #1f2a3a;
+  background: #0b0f14;
+}
+
+.topnav-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.topnav a {
+  text-decoration: none;
+}
+
+.topnav .brand {
+  font-weight: 700;
+  color: #e6edf3;
+}
+
+.topnav .links {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.topnav .links a {
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.topnav .links a:hover {
+  background: #0f1623;
+}

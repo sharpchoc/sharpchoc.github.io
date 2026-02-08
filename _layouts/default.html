@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+
+  <body>
+    <div class="topnav">
+      <div class="topnav-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="links">
+          <a href="{{ '/' | relative_url }}">About</a>
+          <a href="{{ '/#mini-projects' | relative_url }}">Mini Projects</a>
+          <!-- Add later if you want:
+          <a href="{{ '/#research' | relative_url }}">Research</a>
+          <a href="{{ '/#blog' | relative_url }}">Blog</a>
+          -->
+        </nav>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <section>
+        {{ content }}
+      </section>
+    </div>
+  </body>
+</html>
