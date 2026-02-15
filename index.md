@@ -11,4 +11,4 @@ Hey! I'm super excited about improving our understanding of frontier AI models a
   [Read](/mini-projects/truth-in-base-vs-fine-tuned.html)
 
 ## Links
-- GitHub: https://github.com/sharpchoc
+- [GitHub](https://github.com/sharpchoc)
