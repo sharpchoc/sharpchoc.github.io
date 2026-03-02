@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <title>Mini Projects · Mukesh</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
   <script>
     // Apply theme and sidebar state immediately to prevent flicker
     (function () {
@@ -49,8 +49,8 @@
         <span class="brand-name">Mukesh</span>
       </div>
       <nav class="sidebar-nav">
-        <a href="{{ '/' | relative_url }}" class="nav-item">About</a>
-        <a href="{{ '/mini-projects/' | relative_url }}" class="nav-item">Mini Projects</a>
+        <a href="/" class="nav-item">About</a>
+        <a href="/mini-projects/" class="nav-item">Mini Projects</a>
         <div class="spacer"></div>
         <div class="sidebar-footer">
           <a href="https://github.com/sharpchoc" class="nav-item">GitHub</a>
@@ -61,7 +61,18 @@
     <main class="main-content">
       <div class="wrapper">
         <section>
-          {{ content }}
+          <h1 id="mini-projects">Mini Projects</h1>
+
+<ul>
+  <li><strong>Truth in Base vs Fine-Tuned Models</strong> — probing + causal steering in Llama-3.1-8B vs Instruct.<br />
+<a href="/mini-projects/truth-in-base-vs-fine-tuned.html">Read</a></li>
+</ul>
+
+<hr />
+<footer style="margin-top: 50px; opacity: 0.7; font-size: 0.9em;">
+  <p>More projects coming soon.</p>
+</footer>
+
         </section>
       </div>
     </main>

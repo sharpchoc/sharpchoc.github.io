@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <title>About · Mukesh</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
   <script>
     // Apply theme and sidebar state immediately to prevent flicker
     (function () {
@@ -49,8 +49,8 @@
         <span class="brand-name">Mukesh</span>
       </div>
       <nav class="sidebar-nav">
-        <a href="{{ '/' | relative_url }}" class="nav-item">About</a>
-        <a href="{{ '/mini-projects/' | relative_url }}" class="nav-item">Mini Projects</a>
+        <a href="/" class="nav-item">About</a>
+        <a href="/mini-projects/" class="nav-item">Mini Projects</a>
         <div class="spacer"></div>
         <div class="sidebar-footer">
           <a href="https://github.com/sharpchoc" class="nav-item">GitHub</a>
@@ -61,7 +61,17 @@
     <main class="main-content">
       <div class="wrapper">
         <section>
-          {{ content }}
+          <h1 id="about">About</h1>
+
+<p>Hey! I’m super excited about improving our understanding of frontier AI models and how to best align them.</p>
+
+<hr />
+
+<h3 id="links">Links</h3>
+<ul>
+  <li><a href="https://github.com/sharpchoc">GitHub</a></li>
+</ul>
+
         </section>
       </div>
     </main>
