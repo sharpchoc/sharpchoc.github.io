@@ -11,6 +11,9 @@ permalink: /
     <p>
       I’m interested in understanding frontier AI systems and helping make them safer, more reliable, and better aligned with human goals. My main interests are interpretability, evals, and alignment research.
     </p>
+        <p>
+      I am also a competitive table football player! Feel free to reach out to me if you are interested in coaching
+    </p>
   </div>
 </div>
 
