@@ -272,3 +272,35 @@ pre code {
   font-size: 1.05rem;
 }
 
+.icon-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 0.75rem;
+}
+
+.icon-link {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--sidebar-bg);
+  color: var(--nav-text);
+  transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+}
+
+.icon-link:hover {
+  transform: translateY(-1px);
+  background: var(--hover-bg);
+  color: var(--header-color);
+  opacity: 1;
+}
+
+.icon-link svg {
+  width: 20px;
+  height: 20px;
+}
+
