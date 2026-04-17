@@ -246,30 +246,28 @@ pre code {
   flex-wrap: wrap;
 }
 
+.about-heading-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.about-heading-row h1 {
+  margin: 0;
+}
+
 .profile-pic {
-  width: 72px !important;
-  max-width: 72px !important;
-  height: 72px !important;
+  width: 96px;
+  height: 96px;
   object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   border: 2px solid var(--border-color);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
   display: block;
   flex-shrink: 0;
-}
-
-.profile-intro {
-  flex: 1;
-  min-width: 260px;
-}
-
-.profile-intro h1 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-.profile-intro p {
-  margin-top: 0;
-  font-size: 1.05rem;
 }
 
 .icon-links {
