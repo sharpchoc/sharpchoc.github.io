@@ -247,12 +247,13 @@ pre code {
 }
 
 .profile-pic {
-  width: 160px;
-  height: 160px;
+  width: 72px !important;
+  max-width: 72px !important;
+  height: 72px !important;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid var(--border-color);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  display: block;
   flex-shrink: 0;
 }
 
