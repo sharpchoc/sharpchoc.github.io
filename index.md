@@ -4,11 +4,18 @@ title: About
 permalink: /
 ---
 
-# About
+<div class="profile-header">
+  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Mukesh" class="profile-pic">
+  <div class="profile-intro">
+    <h1>About</h1>
+    <p>
+      Hey! I'm excited about improving our understanding of frontier AI models and how to best align them.
+    </p>
+  </div>
+</div>
 
-Hey! I'm super excited about improving our understanding of frontier AI models and how to best align them.
-
----
+* * *
 
 ### Links
+
 - [GitHub](https://github.com/sharpchoc)
