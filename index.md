@@ -4,18 +4,14 @@ title: About
 permalink: /
 ---
 
-<div class="profile-header">
+<div class="about-heading-row">
   <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Mukesh" class="profile-pic">
-  <div class="profile-intro">
-    <h1>About</h1>
-    <p>
-      I’m interested in understanding frontier AI systems and helping make them safer, more reliable, and better aligned with human goals. My main interests are interpretability, evals, and alignment research.
-    </p>
-        <p>
-      I am also a competitive table football player! Feel free to reach out to me if you are interested in coaching
-    </p>
-  </div>
+  <h1>About</h1>
 </div>
+
+I’m interested in understanding frontier AI systems and helping make them safer, more reliable, and better aligned with human goals. My main interests are interpretability, evals, and alignment research.
+
+I am also a competitive table football player! Feel free to reach out to me if you are interested in coaching.
 
 * * *
 
