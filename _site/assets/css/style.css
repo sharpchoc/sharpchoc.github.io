@@ -202,3 +202,36 @@ pre code {
   padding: 0;
   background: transparent;
   border: none; }
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  flex-shrink: 0;
+}
+
+.profile-intro {
+  flex: 1;
+  min-width: 260px;
+}
+
+.profile-intro h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.profile-intro p {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
