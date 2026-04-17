@@ -11,7 +11,9 @@
     (function () {
       const theme = localStorage.getItem('theme') || 'dark';
       document.documentElement.setAttribute('data-theme', theme);
-      const sidebarHidden = localStorage.getItem('sidebarHidden') === 'true';
+      const savedSidebarState = localStorage.getItem('sidebarHidden');
+      const sidebarHidden = savedSidebarState === null || savedSidebarState === 'true';
+      
       if (sidebarHidden) {
         document.documentElement.classList.add('sidebar-hidden');
       }
