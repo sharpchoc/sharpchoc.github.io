@@ -6,17 +6,18 @@ permalink: /blog/
 
 # Blog
 
-A place for short pieces, reviews, and random thoughts.
-
+<div class="entry-list">
 {% if site.posts.size > 0 %}
-  <ul class="blog-list">
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <div class="blog-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+<div class="meta-line">{{ post.date | date: "%B %-d, %Y" }}</div>
+
+{{ post.excerpt }}
+
+* * *
+  {% endfor %}
 {% else %}
 No posts yet.
 {% endif %}
+</div>
