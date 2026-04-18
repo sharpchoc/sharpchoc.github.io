@@ -126,7 +126,7 @@ hr {
 .about-header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   margin-bottom: 1rem;
 }
 
@@ -135,13 +135,16 @@ hr {
 }
 
 .profile-pic {
-  width: 42px;
-  height: 42px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  display: block;
-  border: 1px solid var(--border);
+  width: 28px !important;
+  height: 28px !important;
+  max-width: 28px !important;
+  max-height: 28px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 50% !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  border: 1px solid var(--border) !important;
 }
 
 .entry-list {
