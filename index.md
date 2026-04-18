@@ -5,7 +5,11 @@ permalink: /
 ---
 
 <div class="about-header">
-  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Mukesh" class="profile-pic">
+  <img
+    src="{{ '/assets/img/profile.jpg' | relative_url }}"
+    alt="Portrait of Mukesh"
+    style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: center; display: block; border: 1px solid #2b2f35;"
+  >
   <h1>About</h1>
 </div>
 
