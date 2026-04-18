@@ -7,37 +7,22 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <div class="topbar-name">
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="site-name">
         <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
       </div>
 
-      <nav class="topbar-nav">
+      <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">About</a>
         <a href="{{ '/mini-projects/' | relative_url }}">Mini Projects</a>
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
-        <a href="https://github.com/sharpchoc" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <span id="email-link"></span>
       </nav>
     </div>
   </header>
 
-  <main class="page-wrap">
+  <main class="site-main">
     {{ content }}
   </main>
-
-  <script>
-    const emailTarget = document.getElementById('email-link');
-
-    if (emailTarget) {
-      const user = 'YOUR_USERNAME';
-      const domainName = 'gmail';
-      const tld = 'com';
-      const email = `${user}@${domainName}.${tld}`;
-
-      emailTarget.innerHTML = `<a href="mailto:${email}">Email</a>`;
-    }
-  </script>
 </body>
 </html>
