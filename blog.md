@@ -9,13 +9,14 @@ permalink: /blog/
 A place for short pieces, reviews, and random thoughts.
 
 {% if site.posts.size > 0 %}
-  {% for post in site.posts %}
-  <div class="post-list-item">
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <div class="post-list-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-    {{ post.excerpt }}
-  </div>
-  {% endfor %}
+  <ul class="blog-list">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <div class="blog-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+      </li>
+    {% endfor %}
+  </ul>
 {% else %}
 No posts yet.
 {% endif %}
