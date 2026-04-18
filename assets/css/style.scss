@@ -313,3 +313,21 @@ pre code {
   margin-bottom: 2rem;
 }
 
+.blog-list {
+  padding-left: 1.25rem;
+}
+
+.blog-list li {
+  margin-bottom: 1rem;
+}
+
+.blog-list a {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.blog-date {
+  font-size: 0.9rem;
+  color: var(--nav-text);
+  margin-top: 0.15rem;
+}
