@@ -86,33 +86,27 @@ a:hover {
   text-decoration: none;
 }
 
-.sidebar-icons {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  margin-top: 1.5rem;
+.sidebar-contact {
+  margin-top: 1.75rem;
+  color: var(--muted);
+  font-size: 0.98rem;
 }
 
-.icon-link {
-  width: 38px;
-  height: 38px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: transparent;
+.sidebar-contact-title {
+  margin-bottom: 0.55rem;
+  color: var(--muted);
+}
+
+.sidebar-contact div {
+  margin-bottom: 0.35rem;
+}
+
+.sidebar-contact a {
   color: var(--text);
 }
 
-.icon-link:hover {
-  background: var(--hover);
-  text-decoration: none;
-}
-
-.icon-link svg {
-  width: 18px;
-  height: 18px;
+.sidebar-contact a:hover {
+  color: var(--accent);
 }
 
 .main-content {
